@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <!--author: Nasim Rezazadeh Duchi-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="./scripts/script.js" defer="defer"></script>
+
+    <title>Project-Nasim Duchi | COMP 2132</title>
+  </head>
+
+  <body>
+   
+  <div class="game-container">
+    <h1>Dice Game</h1>
+
+    <div class="scoreboard" id="scoreboard" >
+      <section class="user">
+        <h2>YOU</h2>
+      <img class="dice" src="images/dice1.png" alt="Die 1" id="user-die-1" />
+      <img class="dice" src="images/dice1.png" alt="Die 2" id="user-die-2" />
+      <hr>
+          <!--User score-->
+          <div class="scoreboard-user">
+            <div class="scoreboard-item">
+                <div class="score-title">score the round</div>
+                <div class="score" id="user-score">0</div>
+            </div>
+            <div class="scoreboard-item">
+                <div class="score-title">total score</div>
+                <div class="score" id="user-total-score">0</div>
+            </div>
+          </div>
+      </section>
+      <section class="computer">
+        <h2>COMPUTER</h2>
+      <img class="dice" src="images/dice1.png" alt="Die 1" id="computer-die-1"/>
+      <img class="dice" src="images/dice1.png" alt="Die 2" id="computer-die-2"/>
+      <hr>
+          <!--Computer score-->
+          <div class="scoreboard-computer"> 
+            <div class="scoreboard-item">
+                <div class="score-title">score the round</div>
+                <div class="score" id="computer-score">0</div>
+            </div>
+            <div class="scoreboard-item">
+                <div class="score-title">total score</div>
+                <div class="score" id="computer-total-score">0</div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+    <div class="message" id="show-message"></div>
+    
+
+    <div class="button-container">
+        <button id="roll-button">Roll the Dice</button>
+        <button id="reset-button">New Game</button>
+    </div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #007bff;
+  padding-bottom: 0px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.score {
+  font-size: 36px;
+  margin: 0 20px;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+}
+.scoreboard .scoreboard-user {
+  display: flex;
+  justify-content: center;
+}
+.scoreboard .scoreboard-computer {
+  display: flex;
+  justify-content: center;
+}
+.scoreboard .scoreboard-item {
+  margin: 0 8px;
+}
+
+.message {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.user{
+  background-color: bisque;
+  border: #fbcf9c solid 2px;
+  border-radius: 10px;
+}
+
+.computer{
+  background-color:#f7cdfb;
+  border: #f5bdfa solid 2px;
+  border-radius: 10px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
